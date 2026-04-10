@@ -1,7 +1,28 @@
-/*
-general css for every element
-please add any elements that are missing
-*/
-p, h1, h2, h3, h4, h5, h6, input, label{
-    font-family: helvetica, sans-serif;
+
+h1, h2, h3, h4, h5, h6{
+    font-family: trebuchet, sans-serif;
+}
+
+input, label, p, fieldset{
+    font-family:verdana, sans-serif;
+}
+
+form{
+    display:grid;
+    grid: auto auto / auto auto auto auto;
+    max-width: 400px;
+    text-align:center;
+}
+.parallax{
+  background-image: url("images/forest.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bodypage{
+    font-size:50px;
+    height:1000px
 }
