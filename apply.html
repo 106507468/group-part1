@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="author" content="">
+        <title>Apply Page</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <form action="https://mercury.swin.edu.au/it000000/formtest.php">
+            <fieldset>
+                <legend>Reference No.</legend>
+                <p><label for="reference">Job Reference Number</label>
+                <input type="text" id="reference" name="reference" pattern="[A-Za-z0-9]{5}" maxlength="5" required></p>
+            </fieldset>
+            <fieldset>
+                <legend>About Applicant</legend>
+                <p><label for="firstname">First name</label>
+                <input type="text" id="firstname" name="firstname" pattern="[A-Za-z]{20}" maxlength="20" required></p>
+                <p><label for="lastname">Last name</label>
+                <input type="text" id="lastname" name="lastname" pattern="[A-Za-z]{20}" maxlength="20" required></p>
+                <label for="date">Date</label>
+                <input type="text" id="date" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/yyyy" name="date"><br>
+                <p><b>Gender</b><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="prefernottosay" name="gender" value="prefernottosay">
+                <label for="prefernottosay">Prefer not to say</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label></p>
+            </fieldset>
+            
+            </form>
+    </body>
+</html>

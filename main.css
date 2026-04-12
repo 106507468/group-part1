@@ -1,0 +1,51 @@
+/* 
+colours(light to dark): #D3D335, #82A71D, #1F7815, #0C4F29
+headings: trebuchet, sans-serif
+body: verdana, sans-serif
+*/
+h1, h2, h3, h4, h5, h6{
+    font-family: trebuchet, sans-serif;
+}
+
+input, label, p, fieldset{
+    font-family:verdana, sans-serif;
+}
+
+form{
+    display:grid;
+    grid: auto auto / auto auto auto auto;
+    max-width: 400px;
+    text-align:center;
+}
+.parallax{
+  background-image: url("images/forest.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bodypage{
+    font-size:25px;
+    height:auto;
+    padding:1em;
+    background-color:#D3D335;
+    color:#0C4F29;
+    margin: 0 auto;
+}
+
+.slogan{
+    background-color:#82A71D;
+    font-size:75px;
+    color:#D3D335;
+    min-height:auto;
+    text-align:center;
+    padding:0.25em;
+    font-family:trebuchet, sans-serif;
+}
+
+.country{
+    background-color:#0C4F29;
+    color:#D3D335;
+}
