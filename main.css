@@ -48,6 +48,11 @@ form{
 .country{
     background-color:#0C4F29;
     color:#D3D335;
+    min-height: auto;
+    border:2px solid #D3D335;
+    padding:1em;
+    text-align:center;
+    font-size:25px;
 }
 
 
