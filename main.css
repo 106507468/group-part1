@@ -1,4 +1,8 @@
-
+/* 
+colours(light to dark): #D3D335, #82A71D, #1F7815, #0C4F29
+headings: trebuchet, sans-serif
+body: verdana, sans-serif
+*/
 h1, h2, h3, h4, h5, h6{
     font-family: trebuchet, sans-serif;
 }
@@ -25,21 +29,4 @@ form{
 .bodypage{
     font-size:50px;
     height:1000px
-}
-nav {
-  display: flex;
-  gap: 20px; 
-}
-
-nav a {
-  text-decoration: none;
-}
-nav a {
-  text-decoration: none;
-  color: #2f855a;       
-  font-size: 1.0rem;
-  font-family: Arial, sans-serif;
-  font-weight: 500;
-  padding: 5px 10px;
-  border-radius: 5px;
 }
