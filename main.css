@@ -59,6 +59,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  border: 5px solid #1F7815;
 }
 
 header img {
