@@ -26,9 +26,34 @@ form{
   background-size: cover;
 }
 .bodypage{
-    font-size:50px;
-    height:1000px
+    font-size:25px;
+    height:auto;
+    padding:1em;
+    background-color:#D3D335;
+    color:#0C4F29;
+    margin: 0 auto;
 }
+
+.slogan{
+    background-color:#82A71D;
+    font-size:75px;
+    color:#D3D335;
+    min-height:auto;
+    text-align:center;
+    padding:0.25em;
+    font-family:trebuchet, sans-serif;
+}
+
+.country{
+    background-color:#0C4F29;
+    color:#D3D335;
+    min-height: auto;
+    border:2px solid #D3D335;
+    padding:1em;
+    text-align:center;
+    font-size:25px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -37,9 +62,8 @@ header {
 }
 
 header img {
-  width: 200px; 
+  width: 35%; 
 }
-
 
 nav {
   display: flex;
@@ -74,4 +98,3 @@ nav a:hover {
     margin-bottom: 10px;
     color: #2f855a;
 }
-
