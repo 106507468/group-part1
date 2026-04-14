@@ -17,6 +17,7 @@ form{
     max-width: 400px;
     text-align:center;
 }
+
 .parallax{
   background-image: url("images/forest.jpg");
   min-height: 500px; 
