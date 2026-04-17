@@ -230,11 +230,15 @@ th, td {
   border: 1px solid #ccc;
   text-align: center;
 }
+tr,td:hover {
+  background-color: #dcedc8;
+}
 
 th {
   background-color: #66bb6a;
   color: white;
 }
+
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
