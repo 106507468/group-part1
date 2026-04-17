@@ -37,9 +37,6 @@ form{
     gap: 10px;
 }
 
-legend{
-
-}
 
 #column1{
     text-align:left;
@@ -142,6 +139,7 @@ nav a:hover {
     color: #2f855a;
 }
 
+/* Align-self property sourced from W3C Schools */
 footer p:last-child {
     align-self: flex-end;
     text-align: right;
@@ -164,7 +162,7 @@ aside {
     text-align: center; 
     color: #0C4F29;
 }
-/* box-sizing attribute sourced from W3C Schools*/
+/* Box-sizing property sourced from W3C Schools*/
 #Job1, #Job2 {
     width: 65%;             
     margin: 20px 0;
