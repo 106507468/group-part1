@@ -11,6 +11,7 @@ input, label, p, fieldset{
     font-family:verdana, sans-serif;
 }
 
+/*apply page css*/
 form{
     display:flex;
     flex-direction: column;
@@ -37,10 +38,6 @@ form{
     gap: 10px;
 }
 
-legend{
-
-}
-
 #column1{
     text-align:left;
     float: left;
@@ -53,6 +50,7 @@ legend{
     width: 50%;
 }
 
+/*index page css*/
 /*parallax scrolling code sourced from W3Schools*/
 .parallax{
     background-image: url("images/forest.jpg");
