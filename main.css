@@ -175,6 +175,8 @@ aside {
     box-sizing: border-box;
 }
 
+
+/*About page*/
 /* Lists */
 .info {
   width: 60%;
@@ -210,7 +212,7 @@ aside {
   border: 3px solid #66bb6a;
 }
 
-/* Table */
+/* Table for about page */
 table {
   width: 80%;
   margin: auto;
