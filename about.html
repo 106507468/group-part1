@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <header>
         <meta charset="UTF-8">
         <meta name="description" content="">
         <meta name="keywords" content="">
@@ -8,8 +8,7 @@
         <title>About Us Page</title>
         <link rel="stylesheet" href="main.css">
     </head>
-    <body>
-        <header>
+    
             <img src="images/logo.jpg" width="35%">
                 <nav>
                     <a href="index.html">Home</a>
@@ -18,19 +17,95 @@
                     <a href="about.html">About</a>
                 </nav>
             </header>
-        <h1> Introduction</h1>
-        <ol>
-          <h2> <li>Group name: WWW(worldwide women)</li></h2>
-          <h2><li>Class day/time: Friday 2:30-4:30</li></h2>
-        <ol>
-          <h1>About Members</h1>
-            <dl>
-               <h2><dt>Member Contributions</dt></h2>
-                <dd>Mehak-About.Html, Navigation bar across all pages, Common Index.html(navigation bar) page</dd>
-                <dd>Dharma- Apply.Html, Common Index.html page(backround styling and logo)</dd>
-                <dd>Sreetoma- Jobs.Html, Shared Index page (footer and reference links) </dd>
-            </dl>
-    </body>
+  <style>
+    h2 {
+      color: #2e7d32;
+      text-align: center;
+    }
+  </style>
+</header>
+
+
+<body>
+
+  <!-- Inline CSS -->
+  <h1 style="text-align: center; color: #1b5e20;">
+    About Our Team
+  </h1>
+
+  <!-- 🔹 Group info (nested list) -->
+  <h2>Group Details</h2>
+
+  <ul class="info">
+    <li>Group Name: EcoCoders</li>
+    <li>Class:
+      <ul>
+        <li>Day: Monday</li>
+        <li>Time: 10:00 AM</li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- 🔹 Member contributions + quotes (definition list) -->
+  <h2>Team Contributions</h2>
+
+  <dl class="contributions">
+
+    <dt>Dharma</dt>
+    <dd>Index. html(shared), apply.html</dd>
+    <dd>Quote:.....</dd>
+
+    <dt>Mehak</dt>
+    <dd>About.html, index.html, shared nav menu </dd>
+    <dd>Quote: "zindagi na milegi dobara" (you only live once)</dd>
+
+    <dt>Sreetoma</dt>
+    <dd>Jobs.html, Index.html, footer across the pages </dd>
+    <dd>quote</dd>
+    </dl>
+  <!-- 🔹 Group Photo -->
+  <h2>Our Team</h2>
+
+  <figure class="photo">
+    <img src="https://via.placeholder.com/300" alt="Group Photo">
+    <figcaption>Our amazing team 🌿</figcaption>
+  </figure>
+
+  <!-- 🔹 Fun Facts Table -->
+  <h2>Fun Facts</h2>
+
+  <table>
+    <caption>Team Fun Facts</caption>
+
+    <tr>
+      <th>Name</th>
+      <th>Dream Job</th>
+      <th>pet</th>
+      <th>Hometown</th>
+    </tr>
+
+    <tr>
+      <td>Dharma</td>
+      <td>..</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+
+    <tr>
+      <td>Sreetoma</td>
+      <td>Architectural engineer</td>
+      <td>Archie(cross between golden retriever and poodle)</td>
+      <td>Kolkata</td>
+    </tr>
+
+    <tr>
+        <td>Mehak</td>
+        <td>Software engineer</td>
+         <td>Mocha(Shih Tzu) </td>
+        <td>Delhi</td>
+    </tr>
+  </table>
+
      <footer>
         <p>&copy; 2026 EcoSolutions. All rights reserved.</p>
     </footer>

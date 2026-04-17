@@ -175,6 +175,70 @@ aside {
     box-sizing: border-box;
 }
 
+/* Lists */
+.info {
+  width: 60%;
+  margin: auto;
+  color: #2e7d32;
+}
+
+/* Definition list */
+.contributions {
+  width: 60%;
+  margin: auto;
+}
+
+.contributions dt {
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.contributions dd {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Image */
+.photo {
+  text-align: center;
+  margin: 20px;
+}
+
+.photo img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #66bb6a;
+}
+
+/* Table */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2e7d32;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #66bb6a;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
 
 
 
