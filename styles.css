@@ -334,13 +334,13 @@ caption {
   border-radius: 12px;
 }
 .info {
-  display: inline-block;
-  text-align: left;
-  margin: 20px auto;
+  width: fit-content;
+  margin: 20px auto;   
   padding: 20px 30px;
   background-color: #f1f8e9;
   border: 2px solid #66BB6A;
   border-radius: 12px;
+  text-align: left;
   font-family: Verdana, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.6;
