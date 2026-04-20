@@ -69,9 +69,9 @@ form{
 }
 
 .slogan{
-    background-color:#82A71D;
+    background: linear-gradient(135deg, #D3D335, #1f7815);
     font-size:75px;
-    color:#D3D335;
+    color:#0C4F29;
     min-height:auto;
     text-align:center;
     padding:0.25em;
