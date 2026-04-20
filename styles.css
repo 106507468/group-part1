@@ -175,6 +175,17 @@ aside {
 
 
 /*About page*/
+.about page{font-family: Arial, Helvetica, sans-serif;
+color:#333;}
+
+.about-page h1 {
+text-align: center;
+color:#1b5e20
+}
+.about page h2{
+  text-align:center;
+  color:#2e7d32
+}
 /* Definition list */
 .contributions {
   width: 60%;
@@ -194,14 +205,16 @@ aside {
 /* Image */
 .photo {
   text-align: center;
-  margin: 20px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 3px solid #66BB6A;
+  border-radius: 12px;
+  width: fit-content;
 }
 
 .photo img {
-  width: 300px;
-  border-radius: 10px;
-  border: 3px solid #66bb6a;
-}
+  width: 500px;
+  border-radius: 10px;}
 
 /* Table for about page */
 table {
@@ -218,7 +231,7 @@ caption {
 
 th, td {
   padding: 10px;
-  border: 1px solid #ccc; /* Adds the grid lines back */
+  border: 1px solid #ccc; 
   text-align: center;
 }
 
@@ -228,14 +241,36 @@ th {
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2; /* Light grey zebra stripe */
+  background-color: #f2f2f2; 
 }
 
 tr:hover {
-  background-color: #dcedc8; /* Light green ONLY on hover */
+  background-color: #dcedc8; 
+}
+/*Styles student IDs*/
+.student-id {
+  background-color:#E8F5E9
+  color:#2e7d32 
+  padding:4px 8px;
+  border: 1px solid #66bb6a
+  border-radius: 6px;
+  font-size:13px;
+}
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 30px auto;
 }
 
-
+.pets img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 3px solid #66BB6A;
+  border-radius: 12px;
+}
 
 
 
