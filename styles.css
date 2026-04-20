@@ -235,7 +235,23 @@ tr:hover {
   background-color: #dcedc8; /* Light green ONLY on hover */
 }
 
+/* media query for responsive design */
+@media only screen and (max-width: 768px) {
 
+    aside {
+        float: none;
+        width: 100%;
+    }
 
+    section {
+        width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+    
 
 
