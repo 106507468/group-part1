@@ -347,5 +347,21 @@ tr:hover {
   line-height: 1.6;
 }
 
+/* Media query to fit smaller screens and have responsive layout */
+@media screen and (max-width: 768px) {
 
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
 
