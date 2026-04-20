@@ -256,7 +256,7 @@ color:#1b5e20
   border-radius: 10px;}
 
 /* Table for about page */
-table {
+.tableab {
   width: 80%;
   margin: auto;
   border-collapse: collapse;
@@ -268,22 +268,22 @@ caption {
   color: #2e7d32;
 }
 
-th, td {
+.thab, .tdab {
   padding: 10px;
   border: 1px solid #ccc; 
   text-align: center;
 }
 
-th {
+.thab {
   background-color: #66bb6a;
   color: white;
 }
 
-tr:nth-child(even) {
+.trab:nth-child(even) {
   background-color: #f2f2f2; 
 }
 
-tr:hover {
+.trab:hover {
   background-color: #dcedc8; 
 }
 /*Styles student IDs*/
