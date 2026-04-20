@@ -70,6 +70,12 @@ form{
 
 .slogan{
     background: linear-gradient(135deg, #D3D335, #1f7815);
+    color:#0C4F29;
+    min-height:auto;
+    padding:0.25em;
+}
+
+.slogantext{
     font-size:75px;
     color:#0C4F29;
     min-height:auto;
