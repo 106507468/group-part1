@@ -279,9 +279,9 @@ color:#1b5e20
   border-radius: 10px;}
 
 /* Table for about page */
-.tableab {
+table {
   width: 80%;
-  margin: auto;
+  margin: 30px auto;
   border-collapse: collapse;
 }
 
@@ -291,24 +291,25 @@ caption {
   color: #2e7d32;
 }
 
-.thab, .tdab {
+th, td {
   padding: 10px;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   text-align: center;
 }
 
-.thab {
+th {
   background-color: #66bb6a;
   color: white;
 }
 
-.trab:nth-child(even) {
-  background-color: #f2f2f2; 
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 
-.trab:hover {
-  background-color: #dcedc8; 
+tr:hover {
+  background-color: #dcedc8;
 }
+
 /*Styles student IDs*/
 .student-id {
   background-color: #E8F5E9;
