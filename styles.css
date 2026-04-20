@@ -142,7 +142,7 @@ nav a:hover {
 .footer-links a {
     display: block;
     margin-bottom: 10px;
-    color: #2f855a;
+    color: #0C4F29;
 }
 
 /* Align-self property sourced from W3C Schools */
@@ -169,7 +169,7 @@ aside {
     color: #0C4F29;
 }
 /* Box-sizing property sourced from W3C Schools*/
-#Job1, #Job2 {
+.Job1, .Job2 {
     width: 65%;             
     margin: 20px 0;
     padding: 20px;
@@ -241,7 +241,23 @@ tr:hover {
   background-color: #dcedc8; /* Light green ONLY on hover */
 }
 
+/* media query for responsive design */
+@media only screen and (max-width: 768px) {
 
+    aside {
+        float: none;
+        width: 100%;
+    }
 
+    section {
+        width: 100%;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
+    
 
 
