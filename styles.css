@@ -94,6 +94,39 @@ form{
     font-size:25px;
 }
 
+/*table styling - in stands for index*/
+  .tablein {
+    font-family: trebuchet;
+    text-align:center;
+    width: 75%;
+    margin: 2em auto;
+    padding: 2em auto;
+  }
+  .thin, .tdin {
+    text-align:left;
+    
+  }
+
+  .thin {
+    font-weight:bold;
+    background-color: white;
+    color: #0c4f29;
+  }
+
+  .trin:nth-child(even) {
+  background-color: none;
+}
+
+  .trin:nth-child(odd) {
+  background-color: none;
+}
+
+
+.prices{
+  background-color: #D3D335
+}
+
+
 header {
   display: flex;
   align-items: center;
