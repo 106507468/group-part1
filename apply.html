@@ -22,6 +22,10 @@
                     <a href="apply.html">Apply</a>
                     <a href="about.html">About</a>
                 </nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search..." />
+                    <button>Search</button>
+                </div>
             </header>
         <div id="page">
             <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php" id="form-container">
@@ -38,7 +42,9 @@
                     <input type="text" id="lastname" name="lastname" pattern="[A-Za-z]{1,20}" maxlength="20" required></p>
                     <label for="date">Date of Birth</label>
                     <input type="text" id="date" pattern="\d{2}/\d{2}/\d{4}" placeholder="dd/mm/yyyy" name="date"><br>
-                    <p><b>Gender</b><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Gender</legend>
                     <input type="radio" id="female" name="gender" value="female">
                     <label for="female">Female</label><br>
                     <input type="radio" id="male" name="gender" value="male">
@@ -46,7 +52,7 @@
                     <input type="radio" id="prefernottosay" name="gender" value="prefernottosay">
                     <label for="prefernottosay">Prefer not to say</label><br>
                     <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label></p>
+                    <label for="other">Other</label>
                 </fieldset>
                 <fieldset>
                     <legend>Address</legend>
