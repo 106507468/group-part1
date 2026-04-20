@@ -163,7 +163,7 @@ aside {
     color: #0C4F29;
 }
 /* Box-sizing property sourced from W3C Schools*/
-#Job1, #Job2 {
+.Job1, .Job2 {
     width: 65%;             
     margin: 20px 0;
     padding: 20px;
